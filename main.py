@@ -1,6 +1,6 @@
 from src.train import run_experiments
 
 if __name__ == "__main__":
-    results = run_experiments()
+    df_results, explainer, shap_values, X_test = run_experiments()
     print("\nResultados finais:")
-    print(results)
+    print(df_results)
